@@ -2,8 +2,10 @@
   "name": "backend-youtube",
   "version": "1.0.0",
   "description": "",
+  "type": "commonjs",
   "license": "ISC",
   "author": "Harmin Patel",
+<<<<<<< HEAD
   "type": "module",
   "main": "src/index.js",
   "scripts": {
@@ -13,5 +15,14 @@
   },
   "dependencies": {
     "mongoose": "^9.7.0"
+=======
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.3"
+>>>>>>> d614460ae99868f9de28ea7d4a27b6be11f81576
   }
 }
